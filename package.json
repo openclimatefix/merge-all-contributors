@@ -1,0 +1,18 @@
+{
+  "name": "merge-all-contributors",
+  "version": "1.0.0",
+  "description": "Merge all contributors across a GitHub organisation",
+  "bin": {
+    "merge-all-contributors": "index.js"
+  },
+  "main": "index.js",
+  "author": "Open Climate Fix <info@openclimatefix.org>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclimatefix/merge-all-contributors"
+  }
+}
