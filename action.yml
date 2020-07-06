@@ -1,5 +1,8 @@
 name: merge-all-contributors
 description: 'Merge all contributors across a GitHub organisation.'
+branding:
+  icon: 'users'  
+  color: 'purple'
 inputs:
   orgName:
     description: 'Name of the organisation'
