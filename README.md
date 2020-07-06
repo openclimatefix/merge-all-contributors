@@ -39,7 +39,7 @@ The merged array of contributors.
 ### Example Usage
 
 ```yaml
-uses: openclimatefix/merge-all-contributors@v1.0.2
+uses: openclimatefix/merge-all-contributors@v1.0.3
 with:
   orgName: 'openclimatefix' # replace with your org name
 ```
