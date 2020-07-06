@@ -1,6 +1,6 @@
 {
   "name": "merge-all-contributors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Merge all contributors across a GitHub organisation",
   "bin": {
     "merge-all-contributors": "index.js"
