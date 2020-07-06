@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 const axios = require('axios');
+const core = require('@actions/core');
+
 
 async function getReposForPage(page, org) {
     const {
@@ -71,13 +73,20 @@ async function main(org) {
 
         const allContributors = Object.values(allContributorsDict);
         console.log(allContributors)
+
+        if (IS_GH_ACTION) {
+            core.setOutput("contributors", allContributors);
+        }
     })
 }
 
-if (process.argv.length < 3) {
+let IS_GH_ACTION = process.argv.length < 3;
+
+if (IS_GH_ACTION && !core.getInput('orgName')) {
     console.log("[ERROR] Must pass GitHub organisation name");
+    console.log("Either pass to CLI or set as input to GH Action")
     console.log("Example: merge-all-contributors openclimatefix");
     return;
 }
 
-main(process.argv[2])
+main(core.getInput('orgName') || process.argv[2])

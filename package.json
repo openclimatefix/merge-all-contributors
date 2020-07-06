@@ -9,6 +9,7 @@
   "author": "Open Climate Fix <info@openclimatefix.org>",
   "license": "MIT",
   "dependencies": {
+    "@actions/core": "^1.2.4",
     "axios": "^0.19.2"
   },
   "repository": {

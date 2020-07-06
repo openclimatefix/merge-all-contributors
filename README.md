@@ -19,3 +19,27 @@ npm link
 merge-all-contributors <GitHub_Org_Name>
 # e.g. merge-all-contributors openclimatefix
 ```
+
+## GitHub Action
+
+Instead of using the CLI you can also use this as a GitHub Action.
+
+### Inputs
+
+#### `orgName`
+
+**Required** The name of the GitHub organisation to merge contributors for.
+
+### Outputs
+
+#### `contributors`
+
+The merged array of contributors.
+
+### Example Usage
+
+```yaml
+uses: openclimatefix/merge-all-contributors@v1
+with:
+  orgName: 'openclimatefix' # replace with your org name
+```

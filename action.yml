@@ -1,0 +1,12 @@
+name: merge-all-contributors
+description: 'Merge all contributors across a GitHub organisation.'
+inputs:
+  orgName:
+    description: 'Name of the organisation'
+    required: true
+outputs:
+  contributors:
+    description: 'Merged list of all collaborators'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
