@@ -75,7 +75,7 @@ async function main(org) {
         console.log(allContributors)
 
         if (IS_GH_ACTION) {
-            core.setOutput("contributors", allContributors);
+            core.setOutput("contributors", JSON.stringify(allContributors));
         }
     })
 }
