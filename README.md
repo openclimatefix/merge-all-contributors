@@ -7,7 +7,7 @@ This tool does just that for you.
 Based on the awesome [All Contributors Specification](https://allcontributors.org/).
 
 ## How it works
-1. Gathers all `.all-contributorsrc` files from all public repos `master` branches
+1. Gathers all `.all-contributorsrc` files from all public repos `main` branches
 2. Merges the contributors based on unique `profile`
 3. Combines all contribution categories per contributor
 

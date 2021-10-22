@@ -36,7 +36,7 @@ async function getAllContributorsForRepo(repo_handle) {
     const {
         status,
         data
-    } = await axios.get(`https://raw.githubusercontent.com/${repo_handle}/master/.all-contributorsrc`, {
+    } = await axios.get(`https://raw.githubusercontent.com/${repo_handle}/main/.all-contributorsrc`, {
         validateStatus: false,
     });
 
