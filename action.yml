@@ -11,5 +11,5 @@ outputs:
   contributors:
     description: 'Merged list of all collaborators'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
