@@ -5,10 +5,15 @@ const core = require('@actions/core');
 
 
 async function getReposForPage(page, org) {
+    console.log(`Fetching page ${page} of repos for ${org}`)
     const {
         status,
         data
-    } = await axios.get(`https://api.github.com/orgs/${org}/repos?per_page=100&page=${page}`);
+    } = await axios.get(`https://api.github.com/orgs/${org}/repos`, {
+            params: {
+                per_page: 100,
+                page: page }
+        });
     if (status !== 200) {
         throw err;
     }
