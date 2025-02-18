@@ -28,6 +28,10 @@ async function getAllReposForOrg(org) {
             break
         }
         i=i+1;
+
+        if (i>10) {
+            throw `More than 1000 repos in ${org}, not supported`
+        }
     }
 
     return allRepos;
