@@ -25,16 +25,17 @@ async function getAllReposForOrg(org) {
     let i = 1;
     let allRepos = [];
 
-    while (true) {
+    while (i<10) {
         const repos = await getReposForPage(i, org)
         allRepos = allRepos.concat(repos)
 
+        console.log(`Fetched ${repos.length} repos for ${org}`)
         if (repos.length !== 100) {
             break
         }
         i=i+1;
 
-        if (i>10) {
+        if (i == 10) {
             throw `More than 1000 repos in ${org}, not supported`
         }
     }
