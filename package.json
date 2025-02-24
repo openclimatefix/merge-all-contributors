@@ -5,15 +5,23 @@
   "bin": {
     "merge-all-contributors": "index.js"
   },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "main": "index.js",
   "author": "Open Climate Fix <info@openclimatefix.org>",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "debug": "^4.4.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/openclimatefix/merge-all-contributors"
+  },
+  "devDependencies": {
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
   }
 }
