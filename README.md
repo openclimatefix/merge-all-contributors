@@ -1,6 +1,6 @@
 # merge-all-contributors
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Tired of having countless different `.all-contributorsrc` files across your repos, but not one combined one that shows them all in one place?
@@ -59,6 +59,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/flowirtz"><img src="https://avatars.githubusercontent.com/u/6052785?v=4?s=100" width="100px;" alt="Flo"/><br /><sub><b>Flo</b></sub></a><br /><a href="https://github.com/openclimatefix/merge-all-contributors/commits?author=flowirtz" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/peterdudfield"><img src="https://avatars.githubusercontent.com/u/34686298?v=4?s=100" width="100px;" alt="Peter Dudfield"/><br /><sub><b>Peter Dudfield</b></sub></a><br /><a href="https://github.com/openclimatefix/merge-all-contributors/commits?author=peterdudfield" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lambaaryan011"><img src="https://avatars.githubusercontent.com/u/153702847?v=4?s=100" width="100px;" alt="aryan lamba "/><br /><sub><b>aryan lamba </b></sub></a><br /><a href="https://github.com/openclimatefix/merge-all-contributors/commits?author=lambaaryan011" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
